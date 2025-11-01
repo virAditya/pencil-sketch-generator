@@ -12,7 +12,8 @@ Usage:
 
 import argparse
 from pathlib import Path
-from pencil_sketch import PencilSketch, SketchStyle, ImageProcessor
+from pencil_sketch.sketch_engine import PencilSketch, SketchStyle
+from pencil_sketch.utils import ImageProcessor
 
 
 def main():
